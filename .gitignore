@@ -1,1 +1,29 @@
+# Binaries and build output
+chirpy
+out/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
 .env
+
+# Go build cache & test binaries
+*.test
+*.out
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency directories (if ever used with vendoring)
+vendor/
